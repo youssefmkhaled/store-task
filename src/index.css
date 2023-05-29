@@ -1,0 +1,49 @@
+.mainColor {
+    background-color: #802c6e ;
+}
+body {
+    background-color:#f8f8f8
+}
+.card{
+    border: 0;
+    width: 15rem
+}
+h6{
+    max-height: 40px;
+    overflow:hidden
+}
+.wishlist {
+    background-color: #f6f6f6;
+}
+.wishlist:hover{
+    background-color: #e3e3e3;
+}
+.cart-title span {
+    font-weight: 500;
+}
+.cart {
+    font-size:25px;
+}
+.cart span{
+    padding: 0 10px;
+}
+.cart-title {
+    min-height: 90px;
+}
+.card-hover{
+    transition: 0.5s;
+}
+.card-hover:hover {
+    transform: translate(0px, -10px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.added{
+    transition: 0.5s;
+    box-shadow: none;
+}
+.added:hover{
+    color:black !important;
+}
+.pointer {
+    cursor: pointer;
+}
